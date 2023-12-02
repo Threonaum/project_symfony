@@ -61,8 +61,8 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
     -Il existe deux manières de mettre à jour la structure de la base de données :
     
-        -la migration.
-        -les mises à jour à la volée.
+        la migration.
+        les mises à jour à la volée.
 
     Les migrations consistent un peu comme le versionning d'une structure de notre base de données tandis que les mises à jour à la volée fonctionnent de manière similaire cependant elles ne créent pas de fichier de migration et tout s'effectue dans la console.
 
