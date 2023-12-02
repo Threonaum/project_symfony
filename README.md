@@ -17,7 +17,7 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 ### Les réponses aux questions
 
-1. Qu'une qu'un container de services et quel est son rôle ?
+1. #### Qu'une qu'un container de services et quel est son rôle ?
 
     -un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
 
@@ -60,8 +60,8 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
     -Il existe deux manières de mettre à jour la structure de la base de données :
     
-        -la première : la migration.
-        -la deuxème : les mises à jour à la volée.
+        -la migration.
+        -les mises à jour à la volée.
 
     Les migrations consistent un peu comme le versionning d'une structure de notre base de données tandis que les mises à jour à la volée fonctionnent de manière similaire cependant elles ne créent pas de fichier de migration et tout s'effectue dans la console.
 
