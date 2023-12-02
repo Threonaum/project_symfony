@@ -17,13 +17,13 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 ### Les réponses aux questions
 
-1. Qu'une qu'un container de services et quel est son rôle ?
+1. Qu'une qu'un container de services et quel est son rôle ? <span style="background-color: yellow;">Texte avec fond jaune</span>
 
     -un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
 
 2. Quelle est la diffèrence entre les commandes ```make:entity``` et ```make:user``` lorsqu'on utilise la console Symfony ? 
 
-    -la commande ```make:entity`` permet de créer des entités via le "maker" et de les configurer en fonction de son type, son "état" (nullable, unique), etc. C'est ce qui donnera des "tables" dans notre base de données.
+    -la commande ```make:entity``` permet de créer des entités via le "maker" et de les configurer en fonction de son type, son "état" (nullable, unique), etc. C'est ce qui donnera des "tables" dans notre base de données.
 
     -la commande ```make:user``` permet de créer des utilisateurs via le "maker" et de nous permettre de les intégrer comme nous le souhaitons dans notre application.
 
