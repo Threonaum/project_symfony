@@ -17,7 +17,7 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 ### Les réponses aux questions
 
-1. Qu'une qu'un container de services et quel est son rôle ? <span style="background-color: yellow;">Texte avec fond jaune</span>
+1. <span style="background-color: yellow;">Qu'une qu'un container de services et quel est son rôle ? </span>
 
     -un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
 
