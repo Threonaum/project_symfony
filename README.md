@@ -9,21 +9,40 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 ### Le projet en lui-même
 
-* Rappel de l'énoncé
-* Problèmatiques rencontrées
-* Fonctionnalités présentes dans le projet
-* Ressources utilisées
-* Conclusion
+* Rappel de l'énoncé [s'y rendre](#rappel-de-lénoncé)
+* Problèmatiques rencontrées [s'y rendre](#problèmatiques-rencontrées)
+* Fonctionnalités présentes dans le projet [s'y rendre](#fonctionnalités-présentes-dans-le-projet)
+* Ressources utilisées [s'y rendre](#ressources-utilisées)
+* Conclusion [s'y rendre](#conclusion)
 
 ### Les réponses aux questions
 
-* Qu'une qu'un container de services et quel est son rôle ? 
-* Quelle est la diffèrence entre les commandes ```make:entity``` et ```make:user``` lorsqu'on utilise la console Symfony ? 
-* Quelle commande utiliser pour charger les fixtures dans la base de données ? 
-* Résumez de manière simple le fonctionnement du système de versions "Semver".
-* Qu'une ce qu'un "repository" et à quoi sert-il ? 
-* Quelle commande utiliser pour voir la liste des routes ?
-* Dans un template twig, quelle variable globale permet d'accéder à la requète courante, l'utilisateur courant, etc ?
-* Pour mettre à jour la structure de la base de données, quelles sont les deux possibilités que nous avons abordées en cours ?
-* Quelle commande permet de créer une classe de contrôleur ?
-* Décrivez succintement l'outil flex de symfony.
+1. Qu'une qu'un container de services et quel est son rôle ?
+2. Quelle est la diffèrence entre les commandes ```make:entity``` et ```make:user``` lorsqu'on utilise la console Symfony ? 
+3. Quelle commande utiliser pour charger les fixtures dans la base de données ? 
+4. Résumez de manière simple le fonctionnement du système de versions "Semver".
+5. Qu'une ce qu'un "repository" et à quoi sert-il ? 
+6. Quelle commande utiliser pour voir la liste des routes ?
+7. Dans un template twig, quelle variable globale permet d'accéder à la requète courante, l'utilisateur courant, etc ?
+8. Pour mettre à jour la structure de la base de données, quelles sont les deux possibilités que nous avons abordées en cours ?
+9. Quelle commande permet de créer une classe de contrôleur ?
+10. Décrivez succintement l'outil flex de symfony.
+
+#### Rappel de l'énoncé 
+[haut de page](#sommaire)
+
+
+#### Problèmatiques rencontrées
+[haut de page](#sommaire)
+
+
+#### Fonctionnalités présentes dans le projet
+[haut de page](#sommaire)
+
+
+#### Ressources utilisées
+[haut de page](#sommaire)
+
+
+#### Conclusion
+[haut de page](#sommaire)
