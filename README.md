@@ -17,7 +17,7 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 ### Les réponses aux questions
 
-1. <span style="background-color: yellow;">Qu'une qu'un container de services et quel est son rôle ? </span>
+1. Qu'une qu'un container de services et quel est son rôle ?
 
     -un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
 
@@ -45,11 +45,34 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
     Les dernières versions mineures sont appelées des "LTS" pour "Long Term Support", car ces versions mineures ont 3 ans de support, correction de bug, sécurité, etc ... assurés. 
 
 5. Qu'une ce qu'un "repository" et à quoi sert-il ? 
+
+    -un repository est un service applicatif de notre application qui nous permet d'échanger avec notre base de données à propos d'une entité. Son rôle sert donc d'intermédiaire entre notre application et notre base de données.
+
 6. Quelle commande utiliser pour voir la liste des routes ?
+
+    -la commande a utiliser pour voir la liste des routes est ```php bin/console debug:router```.
+
 7. Dans un template twig, quelle variable globale permet d'accéder à la requète courante, l'utilisateur courant, etc ?
+
+    -Dans un template twig, la variable globale ```app``` permet d'accéder à la requète courante, l'utilisateur courant, etc ...
+
 8. Pour mettre à jour la structure de la base de données, quelles sont les deux possibilités que nous avons abordées en cours ?
+
+    -Il existe deux manières de mettre à jour la structure de la base de données :
+    
+        -la première : la migration.
+        -la deuxème : les mises à jour à la volée.
+
+    Les migrations consistent un peu comme le versionning d'une structure de notre base de données tandis que les mises à jour à la volée fonctionnent de manière similaire cependant elles ne créent pas de fichier de migration et tout s'effectue dans la console.
+
 9. Quelle commande permet de créer une classe de contrôleur ?
+
+    -La commande qui permet de créer une classe de contrôleur est ```php bin/console make:controller```.
+
 10. Décrivez succintement l'outil flex de symfony.
+
+    -L'outil flex de symfony permet d'installer une dépendance, d'exécuter des recettes. Ainsi, lorsque l'on installe une dépéndance (par exemple), il va automatiquement créer un fichier de configuration, ou bien un template de classe PHP. 
+    Il est présent dans notre application pour nous aider à intégrer un package, tout en créant les fichiers dont on a besoin via cette installation. Il vient en complément de composer.
 
 #### Rappel de l'énoncé 
 [haut de page](#sommaire)
