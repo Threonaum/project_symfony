@@ -1,4 +1,4 @@
-# project_symfony
+# project_symfony MUZIAK Kevin
 
 ## Avant de débuter le projet
 
@@ -20,7 +20,7 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 1. #### Qu'est-ce qu'un container de services et quel est son rôle ?
 
-    un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
+    Un container de services c'est l'ensemble des classes compilées de notre application. Son rôle est de contenir des informations ( dont les services ) afin de pouvoir les utiliser quand on en a besoin à l'endroit où l'on en a besoin. 
 
 
 2. #### Quelle est la diffèrence entre les commandes ```make:entity``` et ```make:user``` lorsqu'on utilise la console Symfony ? 
@@ -31,7 +31,7 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 3. #### Quelle commande utiliser pour charger les fixtures dans la base de données ? 
 
-    la commande qu'il faut utiliser pour charger les fixtures dans la base de données est ```php bin/console doctrine:fixtures:load``` que l'on peut écrire aussi ```php bin/console d:f:l```.
+    La commande qu'il faut utiliser pour charger les fixtures dans la base de données est ```php bin/console doctrine:fixtures:load``` que l'on peut écrire aussi ```php bin/console d:f:l```.
 
 
 4. #### Résumez de manière simple le fonctionnement du système de versions "Semver".
@@ -53,20 +53,17 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 
 6. #### Quelle commande utiliser pour voir la liste des routes ?
 
-    -la commande a utiliser pour voir la liste des routes est ```php bin/console debug:router```.
+    La commande a utiliser pour voir la liste des routes est ```php bin/console debug:router```.
 
 
 7. #### Dans un template twig, quelle variable globale permet d'accéder à la requète courante, l'utilisateur courant, etc ?
 
-    -Dans un template twig, la variable globale ```app``` permet d'accéder à la requète courante, l'utilisateur courant, etc ...
+    Dans un template twig, la variable globale ```app``` permet d'accéder à la requète courante, l'utilisateur courant, etc ...
 
 
 8. #### Pour mettre à jour la structure de la base de données, quelles sont les deux possibilités que nous avons abordées en cours ?
 
-    Il existe deux manières de mettre à jour la structure de la base de données :
-    
-        la migration.
-        les mises à jour à la volée.
+    Il existe deux manières de mettre à jour la structure de la base de données: la migration et les mises à jour à la volée. 
 
     Les migrations consistent un peu comme le versionning d'une structure de notre base de données tandis que les mises à jour à la volée fonctionnent de manière similaire cependant elles ne créent pas de fichier de migration et tout s'effectue dans la console.
 
@@ -85,13 +82,38 @@ C'est pourquoi j'ai pris l'initiative de commencer par répondre aux questions a
 ### Rappel de l'énoncé 
 [haut de page](#sommaire)
 
+Il est question de créer un système de location de voitures en ligne. 
+(page d'accueil, page de liste des annonces, page de saisie d'une nouvelle annonce, page d'inscription, page de connexion, page d'administration avec la liste des utilisateurs accessible uniqement par les administrateurs).
+
+Je vais devoir créer deux entités diffèrentes : ```Advert``` et ```User```.
+```User``` servira à l'authentification.
+
+L'on va devoir créer un algorithme d'estimation du prix d'une location en fonction des diffèrentes informations de la voiture (année de voiture, km et nb de jours de location).
+
+La structure de l'interface est simplement constituée d'un header avec son menu, un contenu et un footer. 
+
+Voici dans les grandes lignes ce qui est attendu pour ce projet. 
+
 
 ### Problèmatiques rencontrées
 [haut de page](#sommaire)
 
+Un de mes premiers problèmes rencontrés est que je ne sais toujours pas par quoi je dois commencer. Je suis un peu perdu et je vais essayer de faire une sorte de checklist que je vais partagé quelque part dans le readme (surement au début).
+
+Je prends conscience que même si le projet n'a pas l'air "gros", il me parait de plus en plus imposant. Dans tous les cas, je vais faire en sorte de le mener à son terme avant la date butoire. 
+
+Une fois la checklist faites, je vais essayer de hiérarchiser les choses à faire, je sais que de nouvelles se rajouteront au fur et à mesure mais une étape à la fois. 
+
+
+
 
 ### Fonctionnalités présentes dans le projet
 [haut de page](#sommaire)
+
+Avant que le projet ne démarre, certaines fonctionnalités doivent impérativement être présentes. En effet, il doit avoir obligatoirement plusieurs formulaires, une page d'administration et j'en passe. 
+
+Je n'ai pas spécialement beaucoup d'idées sur les choses que je pourrai rajouter en fonctionnalité si j'ai du temps mais peut-être qu'un moteur de recherche serait envisageable. Dans tous les cas je vais d'abord me concentrer sur le "cahier des charges" de l'énoncé.
+
 
 
 ### Ressources utilisées
